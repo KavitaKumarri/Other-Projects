@@ -1,0 +1,69 @@
+{
+    "origin":"#first# \n #second#\n #third#\n #fourth#\n #fifth##fullstop#\n\n", 
+    "first" : ["#[#setPerson#]introSentence#" ],
+    "second":["[#setPerson#]#rainSentence# , #eAndButWeather# #envSentence2# the air #eSubjWasWere# #envTemperature##fullstop#"] ,
+    "third":["[#setPerson#]#Affect1# #nervous#, #poetic#, #andBut# this #positive##fullstop#"],
+    "fourth":["[#setPerson#]#result1#. #people# #decision#."],
+     "fifth":["Perfect","Together","So close","Almost there","Didn't make it","Oh well","So far away","Opposites","Enemies","Alone"],
+    
+    "fullstop":".",
+    "setPerson":[
+        "[people:he][wasWere:was][thirdword:his][self:himself]"
+        ,"[people:she][wasWere:was][thirdword:her][self:herself]" 
+        ,"[people:I][wasWere:was][thirdword:my][self:myself]"
+        ,"[people:you][wasWere:were][thirdword:your][self:yourself]"
+        ,"[people:we][wasWere:were][thirdword:our][self:ourselves]"
+        ,"[people:they][wasWere:were][thirdword:their][self:themselves]"  
+      ],
+   
+    "thirdWord":["his", "her", "my", "your", "our", "their"],
+    "self" : ["himself", "herself", "myself", "yourself", "ourselves", "themselves"],
+    "introSentence" :["#people.capitalize# #wasWere# #force# #age# #force2# the #flavor# time #people# #activity##fullstop#"],
+    "force" : ["","barely","","only","","","glorious "],
+    "age" : ["eight", "eight and a half","nine","nine","ten","ten and a summer","eleven","twelve","thriteen","fourteen","sixteen","eighteen","twenty","twenty-one","thirty","forty","sixty","ninety"],
+    "force2" : ["#sad#", "", ", just,", "", "", "", " and loving it", ""],
+    "sad" :  [" and quiet", " and lonely", " and miserable"],
+    "flavor" : ["first", "next", "last", "only"],
+    "test":"#conclusion#",
+    "activity":["danced", "won something", "kissed a boy", "saw her", "tasted a peach","worked #self# too hard", "met #thirdWord# father","saw Paris", "ran away", "died" ],
+    
+    "rain":["snow", "hail", "sleet", "rain", "rain", "rain"],
+    "eAndButWeather" : ["but","and"],
+    "eSubjWasWere" : ["was", "was", "was", "was", "was", "were", "was", "was"],
+    "eAdj" : ["achingly beautiful", "magnificent", "marvelous", "lovely", "", "drab", "ugly", "dismal", "hideous"],
+    "eAdjPunc" : [", ", ", ", ", ", ", ", "", ", ", ", ", ", ", ", "],
+    "eAdjPuncPost":[" ", " ", " ", " ", "", " ", " ", " ", " "],
+    "rainSentence" :["[#setPerson#]There was clear blue skies #eAdjPunc# #eAdj# wisp of cloud was in the sky","Wispy clouds curled in the sky fluffy clouds rolled",
+        "Grey clouds #eAdjPunc# #eAdj# #eAdjPunc# whirled above" ,
+        "Stormy clouds #eAdjPunc# #eAdj# #eAdjPunc# scudded", 
+        "Dark clouds threatened #eAdj# weather",
+         "Sprinkles of #eAdj# #rain# were falling", 
+         "#rain# fell #eAdjPunc# #eAdj#",
+          "Heavy #rain# fell #eAdjPunc# #eAdj#",
+           "A #eAdj# #rain# storm was raging", 
+           "Wind and #rain# lashed the trees #eAdjPunc# #eAdj#"
+    ],
+    "envSentence2" : ["#people# felt", "#people# thought", "#people# imagined", "", "","#people# wished", "#people# worried that", "#people# didn't even notice"],
+   
+   
+    "envTemperature" :["deathly cold", "bitter cold", "icy", "frigid", "cold", "chilly", "skin-warm", "warm", "warmer than usual", "hot", "burning hot", "scorching hot"],
+
+
+    "Affect1":["The music was", "The taste of victory was", "His lips were", "She looked", "The juice was", "The exhaustion was", "The old man was", "The streets were", "The thrill of escape was", "It was"],
+    "nervous":["amazing", "like a dream", "nothing like #people#'d imagined", "nice, #people# supposed", "alive", "weird", "unsettling", "terrifying"],
+    "poetic":["kinda", "or something", "yeah", "maybe", "really", "true", "powerful", "fundamental", "primal"],
+    "andBut":["and","but"],
+    "positive":["sucked", "was not cool", "wasn't going to work", "wasn't going well", "felt unsettling", "was kinda cool", "was everything #people#'d wanted","is the best that #people# could get"],
+
+
+    "resultSentence":[""],
+
+
+    "result1":["Seconds later", "Moments later", "Minutes later", "One #mood# hour later","Hours later", "Half a #mood# day later", "The next day", "A few #mood# days later", "The next week", "Weeks later", "After a #mood# month"
+        ,"Months later", "A #mood# year later","Years later", "#people.capitalize#'d tell #thirdWord# children"],
+    "mood": ["long", "", "giddy", "", "tense", "", "contented", "", "weird", "", "electric"],
+    "decision": ["screamed", "cringed", "fidgeted", "confessed", "turned away", "decided", "smiled", "laughed"]
+
+  }
+
+  
